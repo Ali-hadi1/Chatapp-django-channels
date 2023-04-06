@@ -71,6 +71,15 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 
+.sender {
+	background-color: #71aeeb;
+	margin-left: auto;
+}
+
+.receiver {
+	background-color: #62bd56;
+}
+
 .leaveButton {
 	background-color: #f5f5f5;
 	border-color: #aa0404;
@@ -91,5 +100,22 @@ body {
 .leaveButton:hover {
 	background-color: #aa0404;
 	color: #ffffff;
+	transition: 0.3s;
+}
+.nav {
+	width: 95vw;
+	text-align: right;
+}
+
+.sign-out {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-decoration: none;
+	color: #333;
+	transition: 0.3s;
+}
+
+.sign-out:hover {
+	cursor: pointer;
+	color: #1d5a97;
 	transition: 0.3s;
 }
